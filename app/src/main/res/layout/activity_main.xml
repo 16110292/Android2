@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:background="#0000FF"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:hint="Masukkan Username"
+        android:drawablePadding="7dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/ic_baseline_person_24" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_edittext"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
